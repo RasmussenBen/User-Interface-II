@@ -37,7 +37,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    /* border:1px solid grey; */
+    border:1px solid grey;
 }    
 /*General Styles*/
 html{
@@ -87,5 +87,41 @@ nav a {
 /* Top section */
 .top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+.top img {
+    width: 40%;
+}
+.top div {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.top div h2 {
+    font-size: 6rem;
+}
+/* Projects section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projects div {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* Footer section */
+footer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+footer a {
+   
 }
