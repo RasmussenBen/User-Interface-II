@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid grey;
+    color: #4f4f4f;
+}    
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+/* Header section */
+h1{
+    padding: 2% 0 0 2%;
+    font-family: 'Chelsea Market', cursive;
+    font-size:5.5rem;
+    background-color: #5894b0;
+}
+nav{
+    padding: 1% 0 2% 5%;
+    display: flex;
+    justify-content: flex-start;
+    flex: wrap;
+    background-color: #5894b0;
+}
+header nav a {
+    display:inline-block;
+    padding:.5% 0;
+    width:7%;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+    font-size: 2rem;
+}
+.home {
+    background-color:#4f4f4f;
+    color: #84c3e0;
+    opacity: .75;
+}
+.about {
+    background-color:#4f4f4f;
+    color: #84c3e0;
+    opacity: .75;
+    margin-left: .5%;
+}
+.contactTop {
+    background-color:#4f4f4f;
+    color: #84c3e0;
+    opacity: .75;
+    margin-left: .5%;
+}
+.myProjectsNav {
+    background-color:#4f4f4f;
+    color: #84c3e0;
+    opacity: .75;
+    margin-left: .5%;
+}
+/* Top section */
+.top {
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #baccd4;
+}
+.top img {
+    width: 40%;
+    border-radius: 50%;
+}
+.top div {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.top a {
+    display:inline-block;
+    padding: 2%;
+    margin: 0 30%;
+    font-size: 2.5rem;
+    text-align:center;
+    text-decoration:none;
+    color: #84c3e0;
+    background-color: #4f4f4f;
+    opacity: .75;
+}
+.top div h2 {
+    font-size: 6rem;
+}
+.top p {
+    padding: 4% 0;
+    font-size: 2rem;
+}
+/* Projects section */
+.projects {
+    font-size: 1.7rem;
+    padding: 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #baccd4;
+}
+.projects div {
+    width: 22%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* Footer section */
+footer {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #5894b0;
+}
+footer h2 {
+    font-size: 2.5rem;
+}
+footer a {
+    display:inline-block;
+    padding:.5%;
+    text-align:center;
+    text-decoration:none;
+    color: #84c3e0;
+    background-color: #4f4f4f;
+    opacity: .75;
+}
