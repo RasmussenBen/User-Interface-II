@@ -104,7 +104,7 @@ header nav a {
     background-color: #baccd4;
 }
 .top img {
-    width: 40%;
+    width: 100%;
     border-radius: 50%;
 }
 .top div {
@@ -169,4 +169,31 @@ footer a {
     color: #84c3e0;
     background-color: #4f4f4f;
     opacity: .75;
+}
+
+/* Responsive Styles */
+/* Phone */
+@media(max-width: 500px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav a {
+        width: 30%;
+    }
+    .top {
+        flex-direction: column;
+    }
+    .top .image{
+       align-items: center;
+    }
+    .top img {
+        width: 80%;
+    }
+    .top div {
+        width: 100%;
+    }
+    .projects div {
+        width: 40%;
+    }
 }
